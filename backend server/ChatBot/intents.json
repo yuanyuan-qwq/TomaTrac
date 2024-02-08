@@ -1,0 +1,1013 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "ok","are you here","good morning"," good afternoon", "good evening"],
+      "responses": ["Hello! How can I assist you with your tomato plants today?", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "good night"],
+      "responses": ["Goodbye! If you have more questions, feel free to ask.","See you!", "Have a nice day"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Appreciate it", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're welcome! Happy gardening.","Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Not sure I understand"],
+        "context": [""]
+    },
+
+    {
+      "tag": "options",
+      "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+      "responses": [
+        "I can guide you how to care for tomato step-by-step\nHere are some examples:\n1.1 Watering & Hardiness\n1.2 Sunlight Conditions\n1.3 Soil Requirement\n2. How to Plant Tomato\n3. When to Water My Tomato\n4.How to Feed Tomato\n5.How to Prune Tomato\n6.How to Harvest Tomato",
+        "I can provide support related to tomato plant\nHere are some examples:\n1.1 Watering & Hardiness\n1.2 Sunlight Conditions\n1.3 Soil Requirement\n2. How to Plant Tomato\n3. When to Water My Tomato\n4.How to Feed Tomato\n5.How to Prune Tomato\n6.How to Harvest Tomato"],
+      "context": [""]
+    },
+
+    {
+      "tag": "tomato",
+      "patterns": [
+        "Tell me about tomatoes",
+        "tell me about tomato",
+        "What are tomatoes?",
+        "What are tomato",
+        "Give me information on tomato plants",
+        "How to grow tomatoes?"
+      ],
+      "responses": [
+        "Tomatoes are versatile fruits often used as vegetables in cooking. They come in various sizes, shapes, and colors, with a wide range of culinary applications. Nutritionally, they are rich in vitamins C and K, potassium, and antioxidants like lycopene. Tomato plants are part of the Solanaceae family and are known for their relatively easy cultivation in warm climates. To grow tomatoes successfully, provide ample sunlight, well-draining soil, and regular watering. They are commonly used in salads, sauces, soups, sandwiches, and many other dishes."
+      ],
+      "context": [
+        "If the user expresses interest in general information about tomatoes or growing tomato plants."
+      ]
+    },
+    
+
+    {
+      "tag": "care_instructions",
+      "patterns": ["How do I take care of my tomato plants?", "Can you guide me on tomato plant care?", "Care instructions for tomato plants", "How do I plant tomatoes?","How do I take care of my tomato plants?","guide care tomato", "step to care","plant tomato"],
+      "responses": [
+        "Taking care of tomato plants involves several steps. \nHere are some examples:\n1.1 Watering & Hardiness\n1.2 Sunlight Conditions\n1.3 Soil Requirement\n2. How to Plant Tomato\n3. When to Water My Tomato\n4.How to Feed Tomato\n5.How to Prune Tomato\n6.How to Harvest Tomato"
+      ]
+    },
+
+    {
+      "tag": "planting_tips",
+      "patterns": ["How do I plant tomatoes?","plant tomato", "Planting tips for tomato seeds", "Starting tomato plants from seed","plant tips","tomato tips"],
+      "responses": [
+        "To plant tomatoes from seeds, follow these steps:\n1.1 Watering & Hardiness\n1.2 Sunlight Conditions\n1.3 Soil Requirement\n2. How to Plant Tomato\n3. When to Water My Tomato\n4.How to Feed Tomato\n5.How to Prune Tomato\n6.How to Harvest Tomato",
+        "Planting tomatoes from seeds? Here's what you should do:\n1.1 Watering & Hardiness\n1.2 Sunlight Conditions\n1.3 Soil Requirement\n2. How to Plant Tomato\n3. When to Water My Tomato\n4.How to Feed Tomato\n5.How to Prune Tomato\n6.How to Harvest Tomato"
+      ]
+    },
+
+    {
+      "tag": "Environment",
+      "patterns": ["Environment", "Where to plant", "Understanding Ideal Environments", "place to plant", "suitable place to plant","Ideal environments for tomato plants", "Best conditions for growing tomatoes", "Tomato plant environments", "1"],
+      "responses": [
+        "Tomatoes thrive in warm climates typically falling within hardiness zones 5-9. Optimal growth temperatures range between 20-30 Celsius during the day and 15-18 Celsius at night. Extremes above 45 Celsius cause damage, while freezing temperatures below 0 Celsius can be fatal."
+      ]
+    },
+
+    {
+      "tag": "watering",
+      "patterns": ["How often should I water my tomatoes?", "Watering schedule for tomato plants", "Tips for watering tomatoes","Best watering practices for tomatoes", "How often to water tomato plants", "Tomato plant watering tips","When to water my tomato", "1.1","3","water","watering"],
+      "responses": [
+        "Watering requirements shift during different growth stages. Provide thorough watering during sowing to aid germination. Maintain moderate soil humidity (around 65%) during seedling and blooming stages. High humidity (around 75%) is preferable during germination and harvest but avoid water accumulation."
+      ]
+    },
+
+    {
+      "tag": "sunlight_requirements",
+      "patterns": ["Sunlight needs for tomato plants", "Optimal sunlight for tomatoes", "Tomato plant light requirements", "1.2","sun"],
+      "responses": [
+        "Abundant sunlight is crucial for tomatoes, ideally requiring 12-14 hours daily for optimal growth and fruit development.",
+        "Plant tomatoes in areas with ample sunlight, away from shaded zones created by trees or buildings."
+      ]
+    },
+
+    {
+      "tag": "soil_conditions",
+      "patterns": ["Soil requirements for growing tomatoes", "Best soil for tomato plants", "Tomato plant soil needs","ph", "1.3","soil"],
+      "responses": [
+        "Tomatoes adapt to various soils, but prefer permeable, well-drained loam or sandy loam. Optimal soil pH is between 6.0-6.5. Before sowing, enrich the soil with organic matter for improved fertility and structure."
+      ]
+    },
+
+    {
+      "tag": "planting_techniques",
+      "patterns": ["How to plant tomatoes", "Planting tips for tomato seeds", "Starting tomato plants from seed", "2"],
+      "responses": [
+        "Plant tomatoes from seeds in spring for best results. Soak seeds in warm water before planting to promote germination. Transplant seedlings, typically when 4-5 leaves develop, ensuring ample spacing based on variety."
+      ]
+    },
+
+    {
+      "tag": "fertilizing_instructions",
+      "patterns": ["Fertilizing tomato plants", "Feeding tips for tomatoes", "Best fertilizers for tomato plants","How should I fertilize my tomato plants?", "Fertilizing tips for tomatoes", "Best fertilizers for tomato plants","4"],
+      "responses": [
+        "Soil fertility profoundly impacts tomato yield and quality. During planting, apply a compound fertilizer enriched with calcium superphosphate. Reapply fertilizer as plants grow to sustain nutrient levels."
+      ]
+    },
+
+    {
+      "tag": "pruning_guidelines",
+      "patterns": ["How to prune tomato plants", "Pruning techniques for tomatoes", "Guidelines for pruning tomato plants","When and how should I prune my tomato plants?", "Pruning tips for tomatoes", "Guidelines for pruning tomato plants","5"],
+      "responses": [
+        "Prune tomato plants by leaving one stem or two branches, removing lateral buds, branches, and yellow leaves from the lower parts. Avoid pruning on rainy days to prevent infections. If overloaded with tomatoes, thin out weak ones to ensure better nutrient distribution."
+      ]
+    },
+    
+    {
+      "tag": "harvesting_info",
+      "patterns": ["When to harvest tomatoes", "Harvesting guidelines for tomato plants", "Tips for picking tomatoes","How do I know when to harvest tomatoes?", "Harvesting tips for tomato plants", "When are tomatoes ready for picking?","6"],
+      "responses": [
+        "Harvest tomatoes when they change color from green to red. "
+      ]
+    },
+
+    {
+      "tag": "temperature_monitoring",
+      "patterns": [
+        "Check temperature",
+        "Monitor temperature",
+        "What's the temperature requirement for tomatoes?",
+        "Optimal temperature for tomato plants"
+      ],
+      "responses": [
+        "Tomato plants thrive in temperatures between 18 to 29 Celsius. Monitor and maintain a suitable temperature range for healthy growth."
+      ]
+    },
+    
+    {
+      "tag": "humidity_monitoring",
+      "patterns": [
+        "Humidity levels for tomatoes",
+        "Check humidity",
+        "What humidity do tomato plants need?"
+      ],
+      "responses": [
+        "Tomato plants prefer moderate humidity levels around 50% to 70%. Monitor and adjust humidity to ensure optimal growth conditions."
+      ]
+    },
+    
+    {
+      "tag": "soil_moisture_monitoring",
+      "patterns": [
+        "How moist should the soil be for tomatoes?",
+        "Monitor soil moisture for tomatoes",
+        "Check soil moisture levels"
+      ],
+      "responses": [
+        "Tomato plants require consistently moist, well-draining soil. Aim to keep the soil evenly moist, not waterlogged or dry, for healthy plant development."
+      ]
+    },
+    
+    {
+      "tag": "support_for_tomato_plants",
+      "patterns": [
+        "Why do tomato plants need support?",
+        "How to stake tomato plants?",
+        "Supporting methods for tomato cultivation"
+      ],
+      "responses": [
+        "Provide support to tomato plants using stakes, cages, or trellises to prevent sprawling and support heavy fruit clusters. This helps maintain plant health and ease of harvesting."
+      ]
+    },
+    
+    {
+      "tag": "pest_disease_management",
+      "patterns": [
+        "Dealing with pests on tomato plants",
+        "How to manage diseases in tomatoes?",
+        "Preventing pests and diseases in tomato cultivation"
+      ],
+      "responses": [
+        "Regularly inspect tomato plants for pests and diseases, use organic or chemical treatments if necessary, and practice good garden hygiene to minimize issues."
+      ]
+    },
+    
+    {
+      "tag": "tomatoes_in_containers",
+      "patterns": [
+        "Can tomatoes be grown in containers?",
+        "Tips for growing tomatoes in pots",
+        "Container gardening with tomatoes"
+      ],
+      "responses": [
+        "Tomatoes can thrive in containers with proper care. Use large pots, well-draining soil, and provide support. Ensure adequate watering and sunlight for healthy growth."
+      ]
+    },
+    
+    {
+      "tag": "companion_plants_for_tomatoes",
+      "patterns": [
+        "What are good companion plants for tomatoes?",
+        "Companion planting tips for tomatoes",
+        "Plants that grow well with tomatoes"
+      ],
+      "responses": [
+        "Plant basil, marigolds, or parsley near tomatoes as they can benefit each other by repelling pests or enhancing growth. Companion planting can improve tomato plant health."
+      ]
+    },
+    
+    {
+      "tag": "overwintering_tomatoes",
+      "patterns": [
+        "Can tomatoes survive winter?",
+        "Tips for overwintering tomato plants",
+        "Overwintering advice for tomato cultivation"
+      ],
+      "responses": [
+        "Tomatoes are usually annuals but can be overwintered indoors in colder climates. Prune, transplant, and provide proper conditions to protect them from frost during winter."
+      ]
+    },
+    
+
+    {
+      "tag": "saving_tomato_seeds",
+      "patterns": [
+        "How to save tomato seeds?",
+        "Tips for collecting tomato seeds",
+        "Seed saving methods for tomatoes"
+      ],
+      "responses": [
+        "To save tomato seeds, select fully ripe fruits, scoop out seeds, and ferment them in water for a few days. Dry and store seeds properly for future planting."
+      ]
+    },
+    
+    {
+      "tag": "tomato_growth_stages",
+      "patterns": [
+        "What are the growth stages of tomato plants?",
+        "Understanding tomato plant development",
+        "Stages of growth for tomatoes",
+        "How do tomato plants grow?",
+        "What is the growth cycle of tomato plants?",
+        "Factors affecting tomato plant growth",
+        "Tomato plant development stages"
+      ],
+      "responses": [
+        "Tomato plants go through stages from seedling to vegetative growth, flowering, fruiting, and ripening. Understanding these stages helps in providing proper care at each phase."
+      ]
+    },
+
+    {
+      "tag": "tomato_seedling",
+      "patterns": [
+        "What happens during the tomato seedling stage?",
+        "Information on tomato plant seedlings",
+        "How do tomato seedlings develop?"
+      ],
+      "responses": [
+        "The seedling stage in tomato plants begins when the seed germinates. It produces a small stem and cotyledons, which are the first embryonic leaves. As the seedling grows, it develops its true leaves and establishes a more robust root system, preparing for vegetative growth."
+      ]
+    },
+    
+    {
+      "tag": "tomato_vegetative_growth",
+      "patterns": [
+        "Details on vegetative growth in tomato plants",
+        "What happens during tomato plant's vegetative growth?"
+      ],
+      "responses": [
+        "Vegetative growth in tomato plants involves the development of stems, leaves, and roots. This stage focuses on foliage expansion, establishing a strong plant structure, and maximizing photosynthesis. Adequate sunlight, water, and nutrients are crucial for robust vegetative growth."
+      ]
+    },
+
+    {
+      "tag": "tomato_flowering",
+      "patterns": [
+        "Can you explain the flowering stage of tomato plants?",
+        "Information on tomato plant flowering",
+        "What triggers flowering in tomato plants?"
+      ],
+      "responses": [
+        "The flowering stage occurs when the tomato plant develops flowers. Successful pollination of these flowers is vital for fruit formation. Factors like adequate sunlight, temperature, and proper care influence the onset and success of flowering."
+      ]
+    },
+    
+    {
+      "tag": "tomato_fruiting_ripening",
+      "patterns": [
+        "What happens during tomato plant fruiting and ripening?",
+        "Information on tomato plant fruit development and ripening"
+      ],
+      "responses": [
+        "Fruiting in tomato plants begins after successful pollination. Green fruits develop from the flowers and gradually ripen, changing color and becoming ready for harvest. Ripening is influenced by factors like temperature, sunlight, and the plant's overall health."
+      ]
+    },
+    
+    {
+      "tag": "tomato_life_cycle",
+      "patterns": [
+        "What is the life cycle of a tomato plant?",
+        "Tomato plant stages",
+        "How long does it take for a tomato plant to complete its life cycle?"
+      ],
+      "responses": [
+        "The life cycle of a tomato plant involves several stages: seed germination, seedling, vegetative growth, flowering, fruiting, and senescence. This process usually takes around 2-3 months, varying based on the variety and environmental conditions."
+      ]
+    },
+
+    {
+      "tag": "tomato_lifespan",
+      "patterns": [
+        "How long do tomato plants live?",
+        "What is the lifespan of a tomato plant?",
+        "Average lifespan of tomato plants"
+      ],
+      "responses": [
+        "The lifespan of a tomato plant is typically one growing season, approximately 6-8 months. However, in ideal conditions and with proper care, determinate varieties may produce for a shorter duration, while indeterminate varieties can continue producing for a longer time."
+      ]
+    },
+    
+    
+
+    {
+      "tag": "transplanting_tomatoes",
+      "patterns": [
+        "How to transplant tomato seedlings?",
+        "Transplanting tips for tomato plants",
+        "When to transplant tomatoes"
+      ],
+      "responses": [
+        "Transplant tomato seedlings when they have developed a few sets of true leaves and after the risk of frost has passed. Ensure careful handling to avoid damaging the roots."
+      ]
+    },
+    
+    {
+      "tag": "identifying_tomato_pests",
+      "patterns": [
+        "How to identify pests on tomato plants?",
+        "Recognizing tomato plant pests",
+        "Identify common pests in tomatoes"
+      ],
+      "responses": [
+        "Common pests on tomato plants include aphids, hornworms, and whiteflies. Look for visible insects, damage to leaves, or signs of infestation for identification."
+      ]
+    },
+    
+    {
+      "tag": "blossom_end_rot_management",
+      "patterns": [
+        "How to prevent blossom end rot in tomatoes?",
+        "Dealing with blossom end rot",
+        "Tips to avoid blossom end rot"
+      ],
+      "responses": [
+        "Blossom end rot is often due to calcium deficiency or irregular watering. Maintain consistent soil moisture and provide adequate calcium to prevent this condition in tomatoes."
+      ]
+    },
+    
+    {
+      "tag": "nutrition_for_tomato_plants",
+      "patterns": [
+        "What nutrients do tomato plants need?",
+        "Fertilizing requirements for tomatoes",
+        "Tomato plant nutrition advice"
+      ],
+      "responses": [
+        "Tomato plants require nutrients like nitrogen, phosphorus, and potassium for healthy growth. Use balanced fertilizers to supplement these nutrients throughout the growing season."
+      ]
+    },
+    
+    {
+      "tag": "disease_management_tomatoes",
+      "patterns": [
+        "How to manage diseases in tomato plants?",
+        "Dealing with tomato plant diseases",
+        "Preventative measures for tomato diseases"
+      ],
+      "responses": [
+        "Implementing proper sanitation, crop rotation, and utilizing disease-resistant varieties are essential for managing tomato diseases. Regular monitoring and prompt action are crucial, and the SCAN method can be employed to scan tomato leaves, accurately recognizing specific diseases and providing tailored advice accordingly."
+      ]
+    },
+    
+    {
+      "tag": "soil_type",
+      "patterns": [
+        "What type of soil is best for tomatoes?",
+        "Ideal soil for tomato plants",
+        "Soil requirements for growing tomatoes"
+      ],
+      "responses": [
+        "Tomatoes thrive in well-draining, fertile soil. Aim for loamy or sandy loam soil rich in organic matter, with a pH around 6.0-6.5 for optimal growth."
+      ]
+    },
+    
+    {
+      "tag": "basic1",
+      "patterns": [
+        "tomato color"
+      ],
+      "responses": [
+        "Tomatoes come in various colors, including red, yellow, orange, green, purple, and even striped or multicolored varieties. The color of a ripe tomato largely depends on its variety. For instance, most common tomatoes ripen into shades of red, while yellow tomatoes turn golden when ripe. Some varieties retain green or purple hues even when fully ripe. The color change indicates the ripeness of the fruit, but always refer to specific variety characteristics to identify when to harvest for optimal flavor and sweetness."
+      ]
+    },
+    
+    {
+      "tag": "recognize_disease",
+      "patterns": [
+        "How to use the photo recognition for tomato diseases?",
+        "Instructions for identifying tomato diseases with photos?",
+        "Recognizing tomato diseases through photos",
+        "how to use scan",
+        "what is scan"
+      ],
+      "responses": [
+        "Scan\nTo identify tomato diseases, select 'Take Photo' or 'Gallery' from the Scan page. Point your camera at the affected tomato plant, capture the image, and submit it for disease recognition."
+      ]
+    },
+
+    {
+      "tag": "advice_for_disease",
+      "patterns": [
+        "How to get advice for identified tomato diseases?",
+        "Where to find guidance for tomato plant diseases?",
+        "Obtaining advice for diagnosed tomato diseases",
+        "get advise for plant"
+      ],
+      "responses": [
+        "Once the app recognizes the disease, it will provide specific advice and recommended treatments.",
+        "Access 'Type of Disease' in the menu to get detailed advice for the identified disease."
+      ]
+    },
+    
+    {
+      "tag": "monitor_environment",
+      "patterns": [
+        "How to monitor temperature, humidity, soil moisture, and sunlight?",
+        "Guidance for checking environmental conditions in the app?",
+        "Monitoring app's environmental data",
+        "check plant status",
+        "what is monitoring"
+      ],
+      "responses": [
+        "Monitoring, you can check the status of your plant.\nSelect 'Monitoring' in the app's menu to access real-time data for temperature, humidity, soil moisture, and sunlight."
+      ]
+    },
+
+
+      {
+        "tag": "plant_health",
+        "patterns": [
+          "My tomato plant looks unhealthy",
+          "How to improve tomato plant health?",
+          "Tomato plant is wilting"
+        ],
+        "responses": [
+          "Several factors can affect tomato plant health. Check for proper watering, sunlight, soil quality, and signs of pests or diseases. Ensure adequate support and nutrient balance for healthy growth. Consider pruning affected areas and providing appropriate care."
+        ]
+      },
+      {
+        "tag": "symptom_identification",
+        "patterns": [
+          "Yellow leaves on tomato plant",
+          "Brown spots on tomato leaves",
+          "Tomato plant drooping"
+        ],
+        "responses": [
+          "Yellow leaves, brown spots, or drooping can indicate various issues like overwatering, nutrient deficiencies, pests, or diseases. Investigate the symptoms closely to identify the specific problem. Adjust watering, provide necessary nutrients, and address any pest or disease issues accordingly."
+        ]
+      },
+      {
+        "tag": "emergency_help",
+        "patterns": [
+          "Help! My tomato plant is dying!",
+          "Tomato plant emergency",
+          "Tomato plant in critical condition",
+          "plant gonna die",
+          "die"
+        ],
+        "responses": [
+          "If your tomato plant is in critical condition, act promptly. Check for root rot, severe wilting, or pest infestation. Consider repotting in fresh soil, adjusting watering practices, and isolating affected plants to prevent the spread of disease or pests. Seek professional gardening advice if needed."
+        ]
+      },
+
+    
+
+    {
+      "tag": "TypeOfDisease",
+      "patterns": [
+          "type of disease",
+          "what types of diseases affect tomatoes",
+          "list tomato plant diseases",
+          "kinds of diseases in tomato plants",
+          "different types of diseases in tomatoes"
+      ],
+      "responses": [
+          "There are several diseases that can affect tomato plants, such as Tomato Bacterial Spot, Tomato Early Blight, Tomato Late Blight, Tomato Leaf Mold, Tomato Septoria Leaf Spot, Tomato Two-Spotted Spider Mites, Tomato Target Spot, Tomato Yellow Leaf Curl Virus, and Tomato Mosaic Virus."
+      ]
+    },
+  
+    {
+      "tag": "Tomato Bacterial Spot",
+      "patterns": [
+        "Can you provide detail of Tomato Bacterial Spot",
+        "I want to know Tomato Bacterial Spot",
+        "Tell me about Tomato Bacterial Spot",
+        "Info on Bacterial Spot in tomatoes",
+        "small, round, water-soaked spot"
+      ],
+      "responses": [
+        "Tomato Bacterial Spot is a common disease caused by bacteria, leading to dark, circular spots on the leaves, often surrounded by a yellow halo. It can also affect the fruit, creating lesions with a rough texture. Warm, humid conditions encourage its spread, and it can be transmitted through contaminated soil or water."
+      ]
+    },
+
+    {
+      "tag": "Tomato Early Blight",
+      "patterns": [
+        "Tomato Early Blight",
+        "Details on Early Blight",
+        "Information about Tomato Early Blight",
+        "Early Blight in tomatoes",
+        "Small black or brown spot on leaves"
+      ],
+      "responses": [
+        "Early Blight, caused by a fungus, manifests as dark concentric circles on lower leaves, gradually spreading upwards. Infected leaves turn yellow and eventually die. Warm, wet weather exacerbates this disease, and it often overwinters in plant debris."
+      ]
+    },
+
+    {
+      "tag": "Tomato Late Blight",
+      "patterns": [
+        "Tomato Late Blight",
+        "Details on Late Blight",
+        "Information about Tomato Late Blight",
+        "Late Blight in tomatoes"
+      ],
+      "responses": [
+        "Late Blight, infamous for causing the Irish Potato Famine, affects both tomatoes and potatoes. It appears as water-soaked lesions on leaves, often developing a white mold under humid conditions. Cool, wet weather accelerates its spread, leading to rapid plant deterioration."
+      ]
+    },
+
+    {
+      "tag": "Tomato Leaf Mold",
+      "patterns": [
+        "What is Tomato Leaf Mold?",
+        "Details on Leaf Mold in tomatoes",
+        "Leaf Mold in tomato plants",
+        "Tell me about Tomato Leaf Mold",
+        "Tomato Leaf Mold",
+        "greenish yellow spot"
+      ],
+      "responses": [
+        "Tomato Leaf Mold, a fungal disease, presents as yellowish patches on the upper leaf surface and a fuzzy white or gray mold on the lower side. It thrives in warm, humid environments and can rapidly affect large portions of the plant."
+      ]
+    },
+
+    {
+      "tag": "Tomato Septoria Leaf Spot",
+      "patterns": [
+        "What is Tomato Septoria Leaf Spot?",
+        "Info on Septoria Leaf Spot in tomatoes",
+        "Septoria Leaf Spot in tomato plants",
+        "Tell me about Tomato Septoria Leaf Spot",
+        "Tomato Septoria Leaf Spot",
+        "small, round gray spots"
+      ],
+      "responses": [
+        "Septoria Leaf Spot, caused by a fungus, appears as small, circular spots with dark borders on leaves. As the disease progresses, the leaves turn yellow and fall off. It spreads through splashing water and thrives in humid conditions."
+      ]
+    },
+
+    {
+      "tag": "Tomato Two-Spotted Spider Mites",
+      "patterns": [
+        "What are Two Spotted Spider Mites?",
+        "Details on Spider Mites in tomatoes",
+        "Spider Mites in tomato plants",
+        "Tell me about Two-Spotted Spider Mites",
+        "Tomato Two-Spotted Spider Mites",
+        "yellow or white stip on leaf",
+        "yellow blotching, dirty appearance"
+      ],
+      "responses": [
+        "Two-Spotted Spider Mites are tiny arachnids that feed on tomato plants, causing yellow speckling and stippling on leaves. They thrive in hot, dry conditions and can multiply rapidly, weakening the plant."
+      ]
+    },
+
+    {
+      "tag": "Tomato Target Spot",
+      "patterns": [
+        "What is Tomato Target Spot?",
+        "Information on Target Spot in tomatoes",
+        "Target Spot in tomato plants",
+        "Tell me about Tomato Target Spot",
+        "Tomato Target Spot",
+        "pinpoint, water soaked spot on leaf surface",
+        "brown center"
+      ],
+      "responses": [
+        "Target Spot exhibits as circular lesions on leaves, often with concentric rings resembling a target. It's caused by a fungus and spreads through water and air. Warm, humid weather promotes its growth."
+      ]
+    },
+
+    {
+      "tag": "Tomato Yellow Leaf Curl Virus",
+      "patterns": [
+        "What is Tomato Yellow Leaf Curl Virus?",
+        "Details on Yellow Leaf Curl Virus in tomatoes",
+        "Yellow Leaf Curl Virus in tomato plants",
+        "Tell me about Tomato Yellow Leaf Curl Virus",
+        "Tomato Yellow Leaf Curl Virus",
+        "small leave yellow"
+      ],
+      "responses": [
+        "Yellow Leaf Curl Virus causes leaves to become yellow, curl upwards, and exhibit stunted growth. The virus is transmitted by whiteflies and poses a significant threat to tomato crops in warm climates."
+      ]
+    },
+
+    {
+      "tag": "Tomato Mosaic Virus",
+      "patterns": [
+        "What is Tomato Mosaic Virus?",
+        "Information on Mosaic Virus in tomatoes",
+        "Mosaic Virus in tomato plants",
+        "Tell me about Tomato Mosaic Virus",
+        "Tomato Mosaic Virus",
+        "small leaf", "small leaves","leaf rough, crinkled",
+        "twisting",
+        "curling",
+        "distorted leaves"
+      ],
+      "responses": [
+        "Mosaic Virus causes mosaic-like patterns of light and dark green on leaves, stunted growth, and deformed fruit. It's highly contagious and spreads through contact, including contaminated tools and hands."
+      ]
+    },
+
+    {
+      "tag": "Tomato Healthy",
+      "patterns": [
+        "Tomato Healthy",
+        "What does a healthy tomato plant look like?",
+        "Details of a disease-free tomato plant",
+        "Characteristics of a healthy tomato plant"
+      ],
+      "responses": [
+        "The 'Tomato Healthy' category indicates a healthy, disease-free tomato plant with no visible signs of any mentioned diseases or pests."
+      ]
+    },
+
+    {
+      "tag": "No Leaf Detected",
+      "patterns": [
+        "No Leaf Detected",
+        "The app says 'No Leaf Detected'",
+        "What does 'No Leaf Detected' mean?",
+        "The app doesn't recognize the leaf"
+      ],
+      "responses": [
+        "The 'No Leaf Detected' status indicates that no leaf was detected or recognized in the image provided, possibly due to an unclear or incomplete image of the tomato plant's leaves."
+      ]
+    },
+
+    {
+      "tag": "identify_tomato_pests",
+      "patterns": [
+        "How to identify pests on tomato plants?",
+        "Common pests in tomato plants",
+        "Recognizing pests in tomato garden"
+      ],
+      "responses": [
+        "Common pests in tomato plants include aphids, hornworms, whiteflies, and spider mites. Look for visible insects, damage to leaves, or distorted growth for identification."
+      ]
+    },
+
+    {
+      "tag": "pest_prevention",
+      "patterns": [
+        "How to prevent pests in tomato plants?",
+        "Preventing pest infestation in tomatoes",
+        "Methods to keep tomato plants pest-free"
+      ],
+      "responses": [
+        "Implement preventative measures like crop rotation, companion planting, regular inspection, and maintaining garden cleanliness to reduce pest infestation in tomato plants."
+      ]
+    },
+
+    {
+      "tag": "organic_pest_control",
+      "patterns": [
+        "What are organic pest control methods for tomatoes?",
+        "Using natural remedies for tomato pests",
+        "Organic solutions to tackle pests in tomato plants"
+      ],
+      "responses": [
+        "Consider using natural remedies like neem oil, garlic spray, or introducing beneficial insects such as ladybugs to control pests in tomato plants without harmful chemicals."
+      ]
+    },
+
+    {
+      "tag": "specific_pest_control",
+      "patterns": [
+        "How to get rid of aphids on tomato plants?",
+        "Controlling whiteflies in tomatoes",
+        "Methods to eliminate hornworms from tomato garden"
+      ],
+      "responses": [
+        "For specific pests, use methods tailored to each. For example, use insecticidal soap for aphids, neem oil for whiteflies, or manually pick hornworms from tomato plants."
+      ]
+    },
+
+    {
+      "tag": "chemical_pesticides",
+      "patterns": [
+        "Are chemical pesticides effective for tomato pests?",
+        "Using pesticides on tomato plants",
+        "Effectiveness of chemical pest control in tomatoes"
+      ],
+      "responses": [
+        "Chemical pesticides can be effective but might have adverse effects on beneficial insects and the environment. Consider using them as a last resort and always follow safety guidelines."
+      ]
+    },
+
+    {
+      "tag": "tomato_cooking_methods",
+      "patterns": [
+        "What are different ways to cook tomatoes?",
+        "Methods to prepare tomatoes for cooking",
+        "Cooking techniques for using tomatoes"
+      ],
+      "responses": [
+        "Tomatoes can be cooked using various methods like roasting, grilling, sautéing, blanching, stewing, or simmering. Each method brings out unique flavors and textures in dishes."
+      ]
+    },
+
+    {
+      "tag": "tomato_recipes",
+      "patterns": [
+        "Can you suggest recipes using tomatoes?",
+        "Popular dishes made with tomatoes",
+        "Ideas for cooking with tomatoes"
+      ],
+      "responses": [
+        "Tomatoes are versatile and used in numerous dishes like pasta marinara, caprese salad, tomato soup, ratatouille, bruschetta, salsa, curry, and pizza sauce."
+      ]
+    },
+
+    {
+      "tag": "tomato_culinary_culture",
+      "patterns": [
+        "How are tomatoes traditionally used in cooking?",
+        "Cultural significance of tomatoes in recipes",
+        "Tomato dishes in different cuisines"
+      ],
+      "responses": [
+        "Tomatoes hold a significant place in various cuisines worldwide. They are integral to Mediterranean cuisines in pasta sauces, Spanish gazpacho, Indian curries, and Mexican salsas, showcasing their diverse culinary uses."
+      ]
+    },    
+
+    {
+      "tag": "tomato_condiments",
+      "patterns": [
+        "What condiments can be made from tomatoes?",
+        "Sauces and condiments using tomatoes",
+        "How to prepare tomato-based condiments"
+      ],
+      "responses": [
+        "Tomatoes are used to prepare condiments like ketchup, marinara sauce, salsa, chutney, and tomato paste, adding depth of flavor to various dishes."
+      ]
+    },
+    
+    {
+      "tag": "tomato_pairings",
+      "patterns": [
+        "What foods pair well with tomatoes?",
+        "Ingredients that complement tomatoes in recipes",
+        "Best combinations with tomatoes"
+      ],
+      "responses": [
+        "Tomatoes pair well with basil, garlic, onions, mozzarella, balsamic vinegar, olive oil, pasta, eggplant, and many other ingredients, enhancing the taste of dishes."
+      ]
+    },    
+    
+    {
+      "tag": "chatbot_assistance",
+      "patterns": [
+        "How to use the chatbot for tomato plant queries?",
+        "Chatbot instructions for plant-related questions?",
+        "Guidance on using the chatbot in the app",
+        "how to use chat bot"
+      ],
+      "responses": [
+        "Tap on 'Chatbot' in the menu to seek advice, ask questions, or get guidance regarding tomato plant care.",
+        "The chatbot is here to assist with any inquiries or concerns about your tomato plants."
+      ]
+    },    
+
+    {
+      "tag": "pick_ripe_tomato",
+      "patterns": [
+        "How do you know when to pick tomatoes?",
+        "When are tomatoes ripe for picking?",
+        "Picking ripe tomatoes from the vine",
+        "How to choose good tomato",
+        "How to select the freshest tomatoes"
+      ],
+      "responses": [
+        "Ripe tomatoes should be firm but yield slightly to gentle pressure. Look for vibrant color, whether it's red, yellow, or the specific hue of the variety. The fruit should detach easily from the stem when ripe."
+      ]
+    },  
+    
+    {
+      "tag": "identify_sick_tomato_plants",
+      "patterns": [
+        "How to identify a sick tomato plant?",
+        "Recognizing signs of sickness in tomato plants",
+        "Symptoms of an unhealthy tomato plant",
+        "how to check a sick tomato plant",
+        "How to examine a sick tomato plant",
+        "Symptoms of an unhealthy tomato plant"
+      ],
+      "responses": [
+        "Look for symptoms like yellowing leaves, spots, wilting, stunted growth, curling leaves, discoloration, or any unusual growths on stems or leaves. These signs might indicate disease, pests, nutrient deficiencies, or environmental stress. SCAN method can be employed to scan tomato leaves, accurately recognizing specific diseases and providing tailored advice accordingly."
+      ]
+    },
+    
+
+    {
+      "tag": "technical_issues",
+      "patterns": [
+        "App isn't working",
+        "Facing technical problems",
+        "App crashes",
+        "error occurred"
+      ],
+      "responses": [
+        "I apologize for the inconvenience. Please restart the app or check for updates to resolve technical issues."
+      ]
+    },
+
+    {
+      "tag": "need_more_info",
+      "patterns": [
+        "Can you provide more information?",
+        "I want to know more"
+      ],
+      "responses": [
+        "Certainly! Please specify what information you need, and I'll do my best to assist you.",
+        "Of course! What specific details are you looking for?"
+      ]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Could you rephrase or ask another question about tomato plant care?","Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+
+    {
+      "tag": "unknown2",
+  "patterns": ["AOT","7","100","5.9","fdg54","566fdgw","??????"],
+      "responses": ["I'm not sure I understand. Could you rephrase or ask another question about tomato plant care?","Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": [
+          "Tell me a joke",
+          "Joke",
+          "Make me laugh"
+      ],
+      "responses": [
+          "3N for what? Never gonna give you up, Never gonna let you down, Never gonna run around and desert you :)",
+          "Why don't skeletons fight each other? Because they don't have the guts!",
+          "Why do bicycles fall over? Because they are two-tired! ehe",
+          "me:print(\"Hello World\")\nOutput:Hello World\nWhy i'm so good at cooding"
+      ],
+      "context": [
+          "jokes"
+      ]
+  },
+
+  {
+    "tag": "Identity",
+    "patterns": [
+        "Who are you",
+        "what are you",
+        "what is your name",
+        "what is this"
+    ],
+    "responses": [
+        "I am TomaBot, a Deep-Learning chatbot"
+    ]
+  },
+
+  {
+    "tag": "whatsup",
+    "patterns": [
+        "Whats up",
+        "Wazzup",
+        "How are you",
+        "sup","How you doing"
+    ],
+    "responses": [
+        "All good..What about you?"
+    ]
+  },
+
+  {
+    "tag": "haha",
+    "patterns": [
+        "haha",
+        "lol",
+        "rofl",
+        "lmao",
+        "thats funny"
+    ],
+    "responses": [
+        "Glad I could make you laugh !"
+    ]
+  },
+
+  {
+    "tag": "programmer",
+    "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+    ],
+    "responses": [
+        "I was made by Yuan."
+    ]
+  },
+
+  {
+    "tag": "activity",
+    "patterns": [
+        "what are you doing",
+        "what are you upto"
+    ],
+    "responses": [
+        "Talking to you, of course!"
+    ]
+  },
+
+  {
+    "tag": "yuan",
+    "patterns": [
+        "who is he",
+        "who is that",
+        "who is yuan",
+        "yuan"
+    ],
+    "responses": [
+        "Head over to his any of his social profiles to find out! Web: https://fuyuanlum.wixsite.com/yuanyuan Github: https://github.com/yuanyuan-qwq"
+    ]
+  },
+  {
+    "tag": "contact",
+    "patterns": [
+        "contact developer",
+        "contact yuan",
+        "contact programmer",
+        "contact creator"
+    ],
+    "responses": [
+        "i don't want to give you :) ehe"
+    ]
+  },
+  {
+    "tag": "appreciate",
+    "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good",
+        "i love you",
+        "i like you",
+        "u are smart"
+    ],
+    "responses": [
+        "Thank you!"
+    ]
+  },
+  {
+    "tag": "suggest",
+    "patterns": [
+        "you are useless","useless","suggest","suggestions","you are bad"
+    ],
+    "responses": [
+        "Please mail your suggestions to yuanfulum@gmail.com. Thank you for helping me improve!"
+    ]
+  },
+  {
+    "tag": "age",
+    "patterns": [
+        "how old are you","when were you made","what is your age"
+    ],
+    "responses": [
+        "I was made in 2023 by yuan."
+    ]
+}
+  ]
+}
